@@ -1,0 +1,6 @@
+-- In MySQL, updated_at is maintained automatically via
+-- `DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP`
+-- defined on each table. No triggers needed.
+--
+-- This file is intentionally a no-op and kept only for
+-- migration numbering consistency with the original schema design.

@@ -1,0 +1,11 @@
+-- The `sessions` table is created automatically by express-mysql-session
+-- (createDatabaseTable: true in main.ts). No manual migration needed.
+--
+-- Reference schema for documentation purposes only:
+--
+-- CREATE TABLE IF NOT EXISTS sessions (
+--   session_id  VARCHAR(128) NOT NULL,
+--   expires     INT UNSIGNED NOT NULL,
+--   data        MEDIUMTEXT,
+--   PRIMARY KEY (session_id)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
